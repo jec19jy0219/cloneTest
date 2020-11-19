@@ -1,1 +1,2 @@
 # cloneTest
+GitHubのリポジトリのダウンロードのテスト
