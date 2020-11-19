@@ -1,7 +1,13 @@
 public class HelloWorld{
-	public static void main(String[] args) {
-		private int id;
-		private String name;
-		System.out.println("HelloWorld!");
+	private int id = 0;
+	private String name;
+	
+	HelloWorld(){
+		this.id = ++id;
+		this.name = "ダミー";
+	}
+	HelloWorld(String name){
+		this.id = ++id;
+		this.name = name;
 	}
 }
